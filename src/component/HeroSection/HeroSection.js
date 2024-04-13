@@ -34,11 +34,11 @@ const HeroSection = () => {
   const customers = [one, two, three, four, five];
   return (
     <section className={clsx("container", classes.heroSection)}>
+      <img src={topLeft} alt="#" className={classes.topLeft} />
+      <img src={topRight} alt="#" className={classes.topRight} />
+      <img src={bottomLeft} alt="#" className={classes.bottomLeft} />{" "}
+      <img src={bottomRight} alt="#" className={classes.bottomRight} />
       <div className={classes.container}>
-        <img src={topLeft} alt="#" className={classes.topLeft} />
-        <img src={topRight} alt="#" className={classes.topRight} />{" "}
-        <img src={bottomLeft} alt="#" className={classes.bottomLeft} />{" "}
-        <img src={bottomRight} alt="#" className={classes.bottomRight} />
         <Heading xl6 textCenter>
           UNS Token <br /> with Multisector Utility
         </Heading>

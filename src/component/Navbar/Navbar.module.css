@@ -21,6 +21,8 @@
   justify-content: space-between;
   gap: 30px;
   padding: 10px 0;
+  width: 90%;
+  margin: 0 auto;
 }
 .logoContainer {
   display: flex;
@@ -47,7 +49,6 @@
   display: flex;
   align-items: center;
   gap: 30px;
-  margin-left: auto;
 }
 .navItem {
   color: var(--Base-700);
