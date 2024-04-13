@@ -1,0 +1,81 @@
+.heading {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 113.333%;
+  color: var(--Base-900);
+}
+.textBase {
+  font-size: 16px;
+}
+
+.xl {
+  font-size: 20px;
+}
+.xl2 {
+  font-size: 24px;
+}
+.xl4 {
+  font-size: 36px;
+}
+.xl6 {
+  font-size: 60px;
+}
+.textCenter {
+  text-align: center;
+}
+.semiBold {
+  font-weight: 600;
+}
+.base0 {
+  color: var(--Base-0);
+}
+.base300 {
+  color: var(--Base-300);
+}
+
+@media only screen and (max-width: 767px) {
+  .heading {
+    font-size: 40px;
+  }
+  .xl2 {
+    font-size: 20px;
+  }
+  .xl6 {
+    font-size: 48px;
+  }
+  .textBase {
+    font-size: 14px;
+  }
+
+  .xl {
+    font-size: 20px;
+  }
+
+  .xl4 {
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .xl6 {
+    font-size: 38px;
+  }
+  .heading {
+    font-size: 36px;
+  }
+
+  .xl2 {
+    font-size: 20px;
+  }
+
+  .xl4 {
+    font-size: 28px;
+  }
+  .textBase {
+    font-size: 14px;
+  }
+
+  .xl {
+    font-size: 20px;
+  }
+}

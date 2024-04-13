@@ -1,0 +1,110 @@
+.videoWrapper {
+  width: calc(100% - 90px);
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.playerWrapper {
+  position: relative;
+
+  padding-top: 56.25%;
+  border-radius: 12px; /* Add border radius */
+  overflow: hidden;
+  /* 16:9 aspect ratio (change this value according to your desired aspect ratio) */
+}
+
+.reactPlayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 30px;
+}
+
+.nextButton,
+.previousButton {
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  height: 32px;
+  width: 32px;
+  position: absolute;
+
+  z-index: 500;
+
+  top: 50%;
+
+  transform: translateY(-50%);
+  background: var(--Base-100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.previousButton {
+  right: -40px;
+}
+.nextButton {
+  left: -40px;
+}
+.arrow {
+  color: var(--Base-500);
+  font-size: 24px;
+}
+.previousButton:hover .arrow {
+  color: var(--Base-900);
+}
+.nextButton:hover .arrow {
+  color: var(--Base-900);
+}
+
+.nextButton:hover {
+  transform: translateY(-50%);
+}
+.previousButton:hover {
+  transform: translateY(-50%);
+}
+
+/* @media only screen and (max-width: 1199px) {
+  .swiperBox {
+    padding-top: 20px;
+  }
+  .swiperBox::before {
+    display: none;
+  }
+} */
+
+@media only screen and (max-width: 520px) {
+  .videoWrapper {
+    width: 100%;
+  }
+
+  .previousButton {
+    left: auto;
+    top: auto;
+    right: 0;
+    width: 24px;
+    height: 24px;
+    bottom: -5px;
+    transform: translateY(100%);
+    display: none;
+  }
+  .nextButton {
+    top: auto;
+    left: auto;
+    right: 30px;
+    width: 24px;
+    height: 24px;
+    bottom: -5px;
+    transform: translateY(100%);
+    display: none;
+  }
+  .nextButton:hover {
+    transform: translateY(100%);
+  }
+  .previousButton:hover {
+    transform: translateY(100%);
+  }
+  .arrow {
+    font-size: 18px;
+  }
+}

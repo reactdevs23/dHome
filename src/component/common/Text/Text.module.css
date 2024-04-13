@@ -1,0 +1,71 @@
+.text {
+  color: var(--Base-700);
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+.semiBold {
+  font-weight: 500;
+}
+.textBase {
+  font-size: 16px;
+}
+.xs {
+  font-size: 12px;
+}
+.sm {
+  font-size: 14px;
+}
+.xl {
+  font-size: 20px;
+}
+.xl2 {
+  font-size: 24px;
+}
+.lg {
+  font-size: 18px;
+}
+
+.textCenter {
+  text-align: center;
+}
+.base0 {
+  color: var(--Base-0);
+}
+.base300 {
+  color: var(--Base-300);
+}
+.base400 {
+  color: var(--Base-400);
+}
+.base500 {
+  color: var(--Base-500);
+}
+.base600 {
+  color: var(--Base-600);
+}
+.base700 {
+  color: var(--Base-700);
+}
+.base800 {
+  color: var(--Base-800);
+}
+.base900 {
+  color: var(--Base-900);
+}
+.primaryDefault {
+  color: var(--Primary-Default);
+}
+@media only screen and (max-width: 767px) {
+  .xl {
+    font-size: 18px;
+  }
+  .lg {
+    font-size: 16px;
+  }
+  .textBase {
+    font-size: 14px;
+  }
+}

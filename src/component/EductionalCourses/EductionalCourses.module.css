@@ -1,0 +1,129 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+}
+
+.container {
+  width: calc(100%);
+  margin: 0 auto;
+
+  border-radius: 20px;
+  border: 1px solid var(--Base-100);
+  background: var(--Base-0);
+  padding: 24px;
+  padding-bottom: 50px;
+}
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.title {
+  color: var(--Base-900);
+  font-family: Oswald;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 111.111%;
+}
+.img {
+  max-width: 100%;
+}
+.nextButton,
+.previousButton {
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  height: 32px;
+  width: 32px;
+  position: absolute;
+
+  z-index: 500;
+
+  bottom: -5px;
+  transform: translateY(100%);
+  background: var(--Base-100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.previousButton {
+  right: 0;
+}
+.nextButton {
+  right: 40px;
+}
+.arrow {
+  color: var(--Base-500);
+  font-size: 24px;
+}
+.previousButton:hover .arrow {
+  color: var(--Base-900);
+}
+.nextButton:hover .arrow {
+  color: var(--Base-900);
+}
+
+/* .activeButton {
+  background: #000;
+  color: #fff;
+  border: none;
+} */
+.nextButton:hover {
+  transform: translateY(100%);
+}
+.previousButton:hover {
+  transform: translateY(100%);
+}
+
+/* @media only screen and (max-width: 1199px) {
+  .swiperBox {
+    padding-top: 20px;
+  }
+  .swiperBox::before {
+    display: none;
+  }
+} */
+
+@media only screen and (max-width: 767px) {
+  .title {
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .container {
+    padding: 15px;
+    padding-bottom: 44px;
+  }
+  .card {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .infoContainer {
+    gap: 5px;
+  }
+  .title {
+    font-size: 28px;
+  }
+  .previousButton {
+    right: 0;
+    width: 24px;
+    height: 24px;
+  }
+  .nextButton {
+    right: 30px;
+    width: 24px;
+    height: 24px;
+  }
+  .arrow {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,31 @@
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  background: var(--Primary-Default);
+  color: var(--Base-0);
+  border-radius: 8px;
+  border: 1px solid var(--Primary-Default);
+}
+
+.transparent {
+  color: var(--Primary-Default);
+  background: transparent;
+}
+@media only screen and (max-width: 991px) {
+  .btn {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+}

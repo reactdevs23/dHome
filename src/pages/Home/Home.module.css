@@ -1,0 +1,27 @@
+.tokenomicsAndCourses {
+  display: flex;
+
+  gap: 32px;
+  padding: 112px 0;
+}
+.content {
+  width: 50%;
+}
+@media only screen and (max-width: 1199px) {
+  .tokenomicsAndCourses {
+    flex-direction: column;
+  }
+  .content {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .tokenomicsAndCourses {
+    padding: 96px 0;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .tokenomicsAndCourses {
+    padding: 64px 0;
+  }
+}

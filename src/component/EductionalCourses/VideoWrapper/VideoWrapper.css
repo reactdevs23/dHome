@@ -1,0 +1,20 @@
+#videoWrapper .slick-dots li button::before {
+  color: var(--Base-300);
+  font-size: 10px;
+}
+.slick-dots li {
+  width: 10px !important;
+}
+#videoWrapper .slick-dots .slick-active button::before {
+  color: var(--Primary-Default) !important;
+}
+#videoWrapper .slick-dots {
+  text-align: center !important;
+  width: 100%;
+  display: flex;
+}
+/* @media only screen and (max-width: 520px) {
+  #videoWrapper .slick-dots {
+    text-align: left !important;
+  }
+} */

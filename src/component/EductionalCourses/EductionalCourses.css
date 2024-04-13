@@ -1,0 +1,13 @@
+#educationalCourses .slick-dots {
+  text-align: left;
+}
+#educationalCourses .slick-dots li button::before {
+  color: var(--Base-300);
+  font-size: 10px;
+}
+#educationalCourses .slick-dots li {
+  width: 10px !important;
+}
+#educationalCourses .slick-dots .slick-active button::before {
+  color: var(--Primary-Default) !important;
+}

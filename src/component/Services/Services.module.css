@@ -1,0 +1,143 @@
+.wrapper {
+  background: var(--Primary-Default);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 32px;
+  padding: 112px 0;
+}
+
+.card {
+  padding: 48px;
+  padding-bottom: 0;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  position: relative;
+  z-index: 1;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 60%;
+  border-radius: 20px;
+  background: var(--Base-100);
+  z-index: -1;
+}
+.reverseCard {
+  padding: 48px;
+  padding-top: 0;
+  margin-bottom: 0;
+  margin-top: 24px;
+}
+.reverseCard::before {
+  bottom: 0;
+  top: auto;
+}
+.imgContainer {
+  position: relative;
+  z-index: 1;
+}
+.reverseCard {
+  flex-direction: column-reverse;
+}
+.imgContainer::before {
+  content: " ";
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  height: 24px;
+  border-radius: 0px 0px 20px 20px;
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  z-index: -1;
+  top: 100%;
+  transform: translate(-50%, -4px);
+}
+
+.reverseCard .imgContainer::before {
+  content: " ";
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  height: 24px;
+  border-radius: 20px 20px 0px 0px;
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  z-index: -1;
+  top: 0;
+  transform: translate(-50%, calc(-100% + 4px));
+}
+.img {
+  max-width: 100%;
+  width: 100%;
+}
+.title {
+  padding-bottom: 5px;
+}
+@media only screen and (max-width: 1199px) {
+  .container {
+    gap: 50px;
+  }
+  .container br {
+    display: none;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .container {
+    padding: 96px 0;
+    grid-template-columns: 1fr;
+    max-width: 650px;
+    margin: 0 auto;
+  }
+
+  .card,
+  .reverseCard {
+    padding: 48px;
+    padding-top: 0;
+    flex-direction: column-reverse;
+    margin: 0;
+  }
+  .card::before,
+  .reverseCard::before {
+    top: auto;
+    bottom: 0;
+  }
+  .imgContainer::before,
+  .reverseCard .imgContainer::before {
+    content: " ";
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    height: 24px;
+    border-radius: 20px 20px 0px 0px;
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
+    z-index: -1;
+    top: 0;
+    transform: translate(-50%, calc(-100% + 4px));
+  }
+}
+@media only screen and (max-width: 767px) {
+}
+@media only screen and (max-width: 520px) {
+  .container {
+    padding: 64px 0;
+  }
+
+  .card {
+    padding: 24px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .card::before {
+    height: 70%;
+  }
+}
