@@ -22,7 +22,7 @@ const TokenUtility = () => {
       <div className={classes.leftSide}>
         <SectionHeading>Token Utility</SectionHeading>{" "}
         <Heading className={classes.heading}>
-          Supercharge your <br /> <Highlight>tokenized</Highlight>experience
+          Supercharge your <br /> <Highlight>tokenized</Highlight> experience
         </Heading>
         <Text base600 textBase>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -42,7 +42,7 @@ const TokenUtility = () => {
                 </Text>{" "}
                 <Text base600 xs>
                   {feature.info}
-                </Text>{" "}
+                </Text>
               </div>
             </div>
           ))}
