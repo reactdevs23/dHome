@@ -13,8 +13,8 @@
   width: 100%;
   display: flex;
 }
-/* @media only screen and (max-width: 520px) {
+@media only screen and (max-width: 520px) {
   #videoWrapper .slick-dots {
     text-align: left !important;
   }
-} */
+}
