@@ -11,7 +11,7 @@ import { placeHolder } from "../../images";
 import { Text } from "../common";
 import VideoWrapper from "./VideoWrapper/VideoWrapper";
 
-const EductionalCourses = ({ url }) => {
+const EductionalCourses = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const sliderData = [
     {
