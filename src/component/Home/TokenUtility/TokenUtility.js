@@ -1,8 +1,8 @@
 import React from "react";
 import classes from "./TokenUtility.module.css";
-import { SectionHeading, Heading, Highlight, Text } from "../common";
+import { SectionHeading, Heading, Highlight, Text } from "../../common";
 import clsx from "clsx";
-import { multisectorToken, placeHolder, security } from "../../images";
+import { multisectorToken, placeHolder, security } from "../../../images";
 
 const TokenUtility = () => {
   const features = [

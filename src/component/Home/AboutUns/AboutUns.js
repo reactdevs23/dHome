@@ -1,8 +1,8 @@
 import clsx from "clsx";
 import classes from "./AboutUns.module.css";
 import React from "react";
-import { Heading, Highlight, SectionHeading, Text } from "../common";
-import { placeHolder } from "../../images";
+import { Heading, Highlight, SectionHeading, Text } from "../../common";
+import { placeHolder } from "../../../images";
 
 const AboutUns = () => {
   const data = [

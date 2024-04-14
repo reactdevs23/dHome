@@ -1,9 +1,9 @@
 import React from "react";
 import Supply from "./Supply/Supply";
-import { tokenomics } from "../../images";
+import { tokenomics } from "../../../images";
 import classes from "./Tokenomics.module.css";
 import clsx from "clsx";
-import { Heading, Text } from "../common";
+import { Heading, Text } from "../../common";
 
 const Tokenomics = () => {
   return (

@@ -7,8 +7,8 @@ import "slick-carousel/slick/slick-theme.css";
 import classes from "./EductionalCourses.module.css";
 import "./EductionalCourses.css";
 import clsx from "clsx";
-import { placeHolder } from "../../images";
-import { Text } from "../common";
+import { placeHolder } from "../../../images";
+import { Text } from "../../common";
 import VideoWrapper from "./VideoWrapper/VideoWrapper";
 
 const EductionalCourses = () => {

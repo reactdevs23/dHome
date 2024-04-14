@@ -1,15 +1,14 @@
 import React from "react";
-import Roadmap from "../../component/Roadmap/Roadmap";
-import Tokenomics from "../../component/Tokenomics/Tokenomics";
-import HeroSection from "../../component/HeroSection/HeroSection";
-
-import EductionalCourses from "../../component/EductionalCourses/EductionalCourses";
+import Roadmap from "../../component/Home/Roadmap/Roadmap";
+import Tokenomics from "../../component/Home/Tokenomics/Tokenomics";
+import HeroSection from "../../component/Home/HeroSection/HeroSection";
+import EductionalCourses from "../../component/Home/EductionalCourses/EductionalCourses";
 import clsx from "clsx";
-import TeamLeaderAndMembers from "../../component/TeamLeaderAndMembers/TeamLeaderAndMembers";
-import TokenUtility from "../../component/TokenUtility/TokenUtility";
-import Projects from "../../component/Projects/Projects";
-import AboutUns from "../../component/AboutUns/AboutUns";
-import Services from "../../component/Services/Services";
+import TeamLeaderAndMembers from "../../component/Home/TeamLeaderAndMembers/TeamLeaderAndMembers";
+import TokenUtility from "../../component/Home/TokenUtility/TokenUtility";
+import Projects from "../../component/Home/Projects/Projects";
+import AboutUns from "../../component/Home/AboutUns/AboutUns";
+import Services from "../../component/Home/Services/Services";
 import Faq from "../../component/Faq/Faq";
 import classes from "./Home.module.css";
 const Home = () => {

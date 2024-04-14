@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./Supply.module.css";
-import ProgressBar from "../../common/ProgressBar/ProgressBar";
-import { Text } from "../../common";
+import ProgressBar from "../../../common/ProgressBar/ProgressBar";
+import { Text } from "../../../common";
 
 const Supply = () => {
   const data = [

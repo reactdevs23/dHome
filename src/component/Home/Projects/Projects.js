@@ -1,8 +1,8 @@
 import React from "react";
-import { SectionHeading, Heading, Highlight, Button, Text } from "../common";
+import { SectionHeading, Heading, Highlight, Button, Text } from "../../common";
 import classes from "./Projects.module.css";
 import clsx from "clsx";
-import { placeHolder } from "../../images";
+import { placeHolder } from "../../../images";
 
 const Projects = () => {
   const data = [

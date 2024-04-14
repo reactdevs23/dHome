@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./Roadmap.module.css";
 import clsx from "clsx";
-import { Heading, Text } from "../common";
+import { Heading, Text } from "../../common";
 
 const Roadmap = () => {
   const data = [

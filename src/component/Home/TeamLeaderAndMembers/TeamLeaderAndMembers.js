@@ -5,8 +5,8 @@ import { MdArrowRightAlt } from "react-icons/md";
 
 import { FaTwitter, FaLinkedinIn, FaFacebookF } from "react-icons/fa";
 
-import { SectionHeading, Heading, Highlight, Button, Text } from "../common";
-import { ceo, experts, five, four, one, three, two } from "../../images";
+import { SectionHeading, Heading, Highlight, Button, Text } from "../../common";
+import { ceo, experts, five, four, one, three, two } from "../../../images";
 import { Link } from "react-router-dom";
 
 const TeamLeaderAndMembers = () => {

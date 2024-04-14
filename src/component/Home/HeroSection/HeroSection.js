@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./HeroSection.module.css";
 import clsx from "clsx";
-import { Text, Heading } from "../common";
+import { Text, Heading } from "../../common";
 import {
   bitcoin,
   bottomLeft,
@@ -15,7 +15,7 @@ import {
   topRight,
   two,
   verichains,
-} from "../../images";
+} from "../../../images";
 import { FiArrowUpRight } from "react-icons/fi";
 
 const HeroSection = () => {

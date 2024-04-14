@@ -1,8 +1,8 @@
 import React from "react";
 import classes from "./Services.module.css";
 import clsx from "clsx";
-import { placeHolder } from "../../images";
-import { Heading, Text } from "../common";
+import { placeHolder } from "../../../images";
+import { Heading, Text } from "../../common";
 
 const Services = () => {
   const data = [

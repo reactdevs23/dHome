@@ -12,12 +12,12 @@ import clsx from "clsx";
 
 const Navbar = () => {
   const navItems = [
-    { navItem: "About", to: "hero" },
-    { navItem: "Whitepaper", to: "features" },
-    { navItem: "Shop", to: "services" },
-    { navItem: "Stake", to: "roadmap" },
-    { navItem: "Buy UNS", to: "team" },
-    { navItem: "Partner with us", to: "blog" },
+    { navItem: "About", to: "/about" },
+    { navItem: "Whitepaper", to: "/whitepaper" },
+    { navItem: "Shop", to: "/shop" },
+    { navItem: "Stake", to: "/stake" },
+    { navItem: "Buy UNS", to: "/buyuns" },
+    { navItem: "Partner with us", to: "/partner" },
   ];
   const [sidebar, setSidebar] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
