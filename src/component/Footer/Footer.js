@@ -50,7 +50,7 @@ const Footer = () => {
         <div className={classes.leftSide}>
           {" "}
           <div className={classes.locateUs}>
-            <Heading xl semiBold className={classes.heading}>
+            <Heading xl2 semiBold className={classes.heading}>
               Locate Us
             </Heading>
             <div className={classes.locationDetails}>
@@ -89,7 +89,7 @@ const Footer = () => {
           {" "}
           <div className={classes.joinOurCommunity}>
             {" "}
-            <Heading xl semiBold className={classes.heading}>
+            <Heading xl2 semiBold className={classes.heading}>
               Join Our Community
             </Heading>
             <Button>JOIN NOW</Button>
@@ -118,7 +118,7 @@ const Footer = () => {
           </div>
           <div className={classes.contactUsContainer}>
             <div className={classes.contactUs}>
-              <div className={classes.box}>
+              <a href="mailto:info@uns.technology" className={classes.box}>
                 <div className={classes.iconContainer}>
                   <img src={mailIcon} alt="#" className={classes.icon} />{" "}
                 </div>
@@ -126,12 +126,10 @@ const Footer = () => {
                   <Text base400 sm>
                     For Enquiry mail us:
                   </Text>
-                  <a href="mailto:info@uns.technology" className={classes.link}>
-                    info@uns.technology
-                  </a>
+                  <p className={classes.link}>info@uns.technology</p>
                 </div>
-              </div>{" "}
-              <div className={classes.box}>
+              </a>{" "}
+              <a href="mailto:info@uns.technology" className={classes.box}>
                 <div
                   className={classes.iconContainer}
                   style={{ border: "none" }}
@@ -140,14 +138,14 @@ const Footer = () => {
                   <Text base400 sm>
                     For support mail us:
                   </Text>
-                  <a
+                  <p
                     href="mailto:support@uns.technology"
                     className={classes.link}
                   >
                     support@uns.technology
-                  </a>
+                  </p>
                 </div>
-              </div>
+              </a>
             </div>
             <div className={classes.box}>
               {" "}
