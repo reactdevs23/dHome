@@ -217,7 +217,7 @@ const TeamLeaderAndMembers = () => {
               )}
             </React.Fragment>
           ))}{" "}
-          <div className={classes.experts}>
+          <Link to="/team" className={classes.experts}>
             <div className={classes.iconAndHeading}>
               <img src={experts} alt="#" className={classes.expertIcon} />
               <Heading xl2 semiBold base0>
@@ -228,9 +228,9 @@ const TeamLeaderAndMembers = () => {
               <Heading base0 textBase>
                 View UNS Full Core
               </Heading>
-              <Link to="/team" className={classes.moreTeamMember}>
+              <p className={classes.moreTeamMember}>
                 Team Member <MdArrowRightAlt className={classes.moreArrow} />
-              </Link>{" "}
+              </p>{" "}
               <div className={classes.customersImages}>
                 {teams.map((el, i) => (
                   <img
@@ -243,7 +243,7 @@ const TeamLeaderAndMembers = () => {
                 ))}
               </div>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
     </section>
